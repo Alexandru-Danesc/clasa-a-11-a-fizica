@@ -87,10 +87,16 @@
       font-size: 1.4rem;
     }
 
-    ul li {
+   ul li {
       font-size: 0.95rem;
+      text-align: center;   /* center text on phone */
+      padding-left: 0;      /* remove left offset */
+    } 
+    
+   ul li::before {
+    display: none;        /* hide bullet on phone */
     }
-  }
+}
 </style>
 
 
